@@ -1,10 +1,10 @@
 var React = require("react");
-var Table = require("../react-easy-table/Table");
+var Table = require("./Table");
 var ReactDOM = require("react-dom");
-var TextColumn = require("../react-easy-table/TextColumn");
-var LinkColumn = require("../react-easy-table/LinkColumn");
-var CustomColumn = require("../react-easy-table/CustomColumn");
-var ValueReplacer = require("../react-easy-table/ValueReplacer");
+var TextColumn = require("./TextColumn");
+var LinkColumn = require("./LinkColumn");
+var CustomColumn = require("./CustomColumn");
+var ValueReplacer = require("./ValueReplacer");
 var PageContent= React.createClass({
 
   getInitialState:function(){
